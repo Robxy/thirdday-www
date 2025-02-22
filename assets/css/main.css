@@ -2782,27 +2782,6 @@ input, select, textarea {
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
 			}
-/* JR ADDED Fix mobile issue of not displaying icon properly */
-		@media screen and (max-width: 768px) {
-  
-			.spotlight {
-    				display: flex;
-    				flex-direction: column; /* Stack image & text */
-    				align-items: center;
-    				text-align: center;
-  			}
-
-  			.spotlight .image {
-    				width: 100%;
-    				max-width: 100%;
-  			}
-
-  			.spotlight .content {
-    				width: 90%;
-    				padding: 15px;
-  			}
-			/* JR ADDED */
-}
 
 		}
 
