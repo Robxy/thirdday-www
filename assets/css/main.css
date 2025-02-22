@@ -2759,36 +2759,30 @@ input, select, textarea {
 			.spotlight {
 				display: block;
 			}
-				.spotlight {
-   					flex-direction: column !important; /* Force vertical stacking */
-				}
+
 				.spotlight br {
 					display: none;
 				}
 
-				.spotlight .image,
+				.spotlight .image {
+					width: 100%;
+				}
+
 				.spotlight .content {
 					padding: 4em 3em 2em 3em ;
 					max-width: none;
 					text-align: center;
-					width: 100%; !important; /* Full width on mobile */
+					width: 100%;
 				}
-
-				.spotlight .content {
-    					padding: 2em 1.5em !important; /* Reduce padding for small screens */
-  				}
 
 		}
 
 		@media screen and (max-width: 736px) {
 
 			.spotlight .content {
-				 padding: 1.5em 1em !important;
+				padding: 3em 2em 1em 2em ;
 			}
-			h2 {
-    				font-size: 1.25rem !important; /* Smaller headings */
-  			}
-}
+
 		}
 
 /* Wrapper */
